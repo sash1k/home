@@ -1,0 +1,29 @@
+---
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* override syntax highlighting (base16) */
+$base00: #373e47 !default; 
+$base01: #444c56 !default; 
+$base02: #545d68 !default; 
+$base03: #909dab !default; 
+$base04: #adbac7 !default; 
+$base05: #cdd9e5 !default; 
+$base06: #e7f3f4 !default; 
+$base07: #ffffff !default; 
+$base08: #d40059 !default; 
+$base09: #ff5c00 !default; 
+$base0a: #d9b600 !default; 
+$base0b: #6bac00 !default; 
+$base0c: #00a8e0 !default; 
+$base0d: #b37eff !default; 
+$base0e: #00af9e !default; 
+$base0f: #ff66c2 !default; 
+
+html {
+  font-size: 17px; // global font size
+}
