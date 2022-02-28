@@ -11,9 +11,10 @@ categories:
   - tryhackme
   - linux
   - infosec
+  - cve
 tags:
   - stegseek
-  - cve 
+  - CVE-2019-14287
 ---
 
 ![1](/assets/images/thm/agent_sudo/1.png)
