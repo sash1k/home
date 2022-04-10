@@ -34,16 +34,17 @@ Let's scan the Ip address first by using Nmap.
 
 ```sql
 # Nmap 7.92 scan initiated Sat Apr  9 04:18:54 2022 as: nmap -sC -sV -p- -oN nmap/responder_all 10.129.101.69
-Nmap scan report for unika.htb (10.129.101.69)
-Host is up (0.30s latency).
-Not shown: 65533 filtered tcp ports (no-response)
-PORT     STATE SERVICE VERSION
-80/tcp   open  http    Apache httpd 2.4.52 ((Win64) OpenSSL/1.1.1m PHP/8.1.1)
+Nmap scan report for 10.129.101.69
+Host is up (0.42s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http       Apache httpd 2.4.52 ((Win64) OpenSSL/1.1.1m PHP/8.1.1)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
 |_http-server-header: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1
-|_http-title: Unika
-5985/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
-|_http-server-header: Microsoft-HTTPAPI/2.0
+5985/tcp open  http       Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
 |_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+7680/tcp open  tcpwrapped
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
