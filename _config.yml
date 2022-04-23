@@ -16,10 +16,10 @@ minimal_mistakes_skin    :  "miko" # "default", "air", "aqua", "contrast", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Doct3rJohn"
+title                    : "shafiqaiman"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Aiman"
+name                     : "shafiqaiman"
 description              : "A website for Capture The Flag (CTF) write-up. Such as Hack The Box, TryHackMe, etc"
 url                      : "https://doct3rjohn.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
@@ -102,9 +102,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Doct3rJohn"
-  avatar           : "/assets/images/profile.png"
-  bio              : "Also known as Aiman, <br> CTF Player"
+  name             : "shafiqaiman"
+  avatar           : "/assets/images/new_profile.jpg"
+  bio              : "Also known as Doct3rJohn, <br> CTF Player"
   location         : "Malaysia"
   email            :
   links:
