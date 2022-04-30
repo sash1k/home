@@ -20,7 +20,7 @@ title                    : "shafiqaiman"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "shafiqaiman"
-description              : "A website for Capture The Flag (CTF) write-up. Such as Hack The Box, TryHackMe, etc"
+description              : "shafiqaiman, also as Doct3rJohn. Pentester, Red teamer, CTF player such as HacktheBox, TryHackMe, etc. Here's where I stored all of my write-up that I learned and played. To greet my reader/visitor. Welcome to my site and I hope you have a beautiful day"
 url                      : "https://doct3rjohn.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "doct3rjohn/doct3rjohn.github.io"
@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "shafiqaiman"
   avatar           : "/assets/images/new_profile.jpg"
-  bio              : "Also known as Doct3rJohn, <br> CTF Player"
+  bio              : "Also known as Doct3rJohn, <br> CTF Player, RED teamer, <br> YEET"
   location         : "Malaysia"
   email            :
   links:
