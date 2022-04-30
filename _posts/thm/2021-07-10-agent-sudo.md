@@ -11,7 +11,6 @@ categories:
   - tryhackme
   - linux
   - infosec
-  - cve
 tags:
   - stegseek
   - CVE-2019-14287
