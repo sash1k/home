@@ -16,10 +16,12 @@ tags:
   - lfi
   - rce
   - log-poisoning
-  - responder
+  - responder.py
   - NTLMv2
   - hashcat
-  - reverse-pshell
+  - reverse-powershell
+  - php-webshell
+  - evil-winrm
 ---
 
 ![1](/assets/images/htb/responder/thumnails.png)
