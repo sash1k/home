@@ -13,7 +13,7 @@ categories:
   - windows
   - infosec
 tags:
-  - reverse-pshell
+  - reverse-powershell
   - legacy 
 ---
 
