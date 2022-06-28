@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Try Hack Me - Vulnversity
-permalink: /thm-vulnversity/
+title: TryHackMe - Vulnversity Writeup
+permalink: /thm-vulnversity-writeup/
 excerpt: "TryHackMe Machine"
 classes: wide
 header:
@@ -11,6 +11,7 @@ categories:
   - tryhackme
   - linux
   - infosec
+  - writeup
 tags:
   - upload-vuln
   - GTFOBins

@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Try Hack Me - Anonforce
-permalink: /thm-anonforce/
+title: TryHackMe - Anonforce Writeup
+permalink: /thm-anonforce-writeup/
 excerpt: "TryHackMe Machine"
 classes: wide
 header:
@@ -11,6 +11,7 @@ categories:
   - tryhackme
   - linux
   - infosec
+  - writeup
 tags:
   - ftp 
 ---

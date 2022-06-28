@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Try Hack Me - Agent Sudo
-permalink: /thm-agent-sudo/
+title: TryHackMe - Agent Sudo Writeup
+permalink: /thm-agent-sudo-writeup/
 excerpt: "TryHackMe Machine"
 classes: wide
 header:
@@ -11,6 +11,7 @@ categories:
   - tryhackme
   - linux
   - infosec
+  - writeup
 tags:
   - stegseek
   - CVE-2019-14287

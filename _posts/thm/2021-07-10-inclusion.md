@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Try Hack Me - Inclusion
-permalink: /thm-inclusion/
+title: TryHackMe - Inclusion Writeup
+permalink: /thm-inclusion-writeup/
 excerpt: "TryHackMe Machine"
 classes: wide
 header:
@@ -11,6 +11,7 @@ categories:
   - tryhackme
   - linux
   - infosec
+  - writeup
 tags:
   - GTFOBins
   - lfi

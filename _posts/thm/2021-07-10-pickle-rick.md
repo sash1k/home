@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Try Hack Me - Pickle Rick
-permalink: /thm-pickle-rick/
+title: TryHackMe - Pickle Rick Writeup
+permalink: /thm-pickle-rick-writeup/
 excerpt: "TryHackMe Machine"
 classes: wide
 header:
@@ -11,6 +11,7 @@ categories:
   - tryhackme
   - linux
   - infosec
+  - writeup
 tags:
   - gobuster
 ---

@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Try Hack Me - Gaming Server
-permalink: /thm-gaming-server/
+title: TryHackMe - Gaming Server Writeup
+permalink: /thm-gaming-server-writeup/
 excerpt: "TryHackMe Machine"
 classes: wide
 header:
@@ -11,6 +11,7 @@ categories:
   - tryhackme
   - linux
   - infosec
+  - writeup
 tags:
   - linpeas
   - lxd-alpine

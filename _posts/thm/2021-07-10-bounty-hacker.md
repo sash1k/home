@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Try Hack Me - Bounty Hacker
-permalink: /thm-bounty-hacker/
+title: TryHackMe - Bounty Hacker Writeup
+permalink: /thm-bounty-hacker-writeup/
 excerpt: "TryHackMe Machine"
 classes: wide
 header:
@@ -11,6 +11,7 @@ categories:
   - tryhackme
   - linux
   - infosec
+  - writeup
 tags:
   - GTFOBins
   - hydra

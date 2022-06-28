@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Try Hack Me - Lazy Admin
-permalink: /thm-lazy-admin/
+title: TryHackMe - Lazy Admin Writeup
+permalink: /thm-lazy-admin-writeup/
 excerpt: "TryHackMe Machine"
 classes: wide
 header:
@@ -11,6 +11,7 @@ categories:
   - tryhackme
   - linux
   - infosec
+  - writeup
 tags:
   - cms
   - gobuster
