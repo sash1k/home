@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Hack The Box - Responder
-permalink: /htb-responder/
+title: HackTheBox - Responder Writeup
+permalink: /hackthebox-responder-writeup/
 excerpt: "Responder is a free starting-point machine. This machine teaches us how to use the responder utility to steal the password hash and crack it with hashcat. On top of that, this machine is also vulnerable to local file inclusion. Which we can exploit through log poisoning to gain remote code execution and get the reverse shell."
 classes: wide
 header:
@@ -12,6 +12,7 @@ categories:
   - windows
   - infosec
   - starting-point
+  - writeup
 tags:
   - lfi
   - rce

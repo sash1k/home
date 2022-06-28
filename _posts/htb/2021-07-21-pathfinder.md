@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Hack The Box - Pathfinder
-permalink: /htb-pathfinder/
+title: HackTheBox - Pathfinder Writeup
+permalink: /hackthebox-pathfinder-writeup/
 excerpt: "Starting Point Machine"
 classes: wide
 header:
@@ -12,6 +12,7 @@ categories:
   - starting-point
   - windows
   - infosec
+  - writeup
 tags:
   - ldapsearch
   - ldapdump

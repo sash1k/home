@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Hack The Box - Archetype
-permalink: /htb-archetype/
+title: HackTheBox - Archetype Writeup
+permalink: /hackthebox-archetype-writeup/
 excerpt: "Starting Point Machine"
 classes: wide
 header:
@@ -12,6 +12,7 @@ categories:
   - starting-point
   - windows
   - infosec
+  - writeup
 tags:
   - reverse-powershell
   - legacy 
