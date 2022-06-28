@@ -20,7 +20,7 @@ title                    : "shafiqaiman"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "shafiqaiman"
-description              : "shafiqaiman, also as Doct3rJohn. Pentester, Red teamer, CTF player such as HacktheBox, TryHackMe, etc. Here's where I stored all of my write-up that I learned and played. To greet my reader/visitor. Welcome to my site and I hope you have a beautiful day"
+description              : "shafiqaiman.com is a cybersecurity/ethical hacking website that focus on publishing of writeup in HacktheBox, Tryhackme and other online CTF (capture the flag) challenge."
 url                      : "https://doct3rjohn.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "doct3rjohn/doct3rjohn.github.io"
