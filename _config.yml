@@ -16,7 +16,7 @@ minimal_mistakes_skin    :  "miko" # "default", "air", "aqua", "contrast", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "shafiqaiman"
+title                    : "shafiqaiman.com | writeups | HacktheBox | TryhackMe | CTF"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "shafiqaiman"
