@@ -25,15 +25,15 @@ tags:
   - evil-winrm
 ---
 
-![1](/assets/images/htb/responder/thumnails.png)
+![hackthebox responder title card](/assets/images/htb/responder/thumnails.png)
 
 I found `two ways` to gain into this machine. First, stealing the password hash by using the responder and then logon through evil-winrm. Second, gaining the remote code execution through log poisoning and getting the reverse shell.
 
-### <font color="#9bffc8">Nmap</font>
+# <font color="#9bffc8">Nmap</font>
 
 Let's scan the Ip address first by using Nmap.
 
-### result
+## result
 
 ```sql
 # Nmap 7.92 scan initiated Sat Apr  9 04:18:54 2022 as: nmap -sC -sV -p- -oN nmap/responder_all 10.129.101.69
@@ -56,9 +56,9 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 That's not a lot of open ports.
 
-## <font color="#9bffc8">First Method</font>
+# <font color="#9bffc8">First Method</font>
 
-### <font color="#9bffc8">Http</font>
+## <font color="#9bffc8">Http</font>
 
 The Nmap scan result shows this machine has a webserver on `port 80`. When I put the Ip address in the `url bar` it's redirected me to `unika.htb`
 
@@ -70,7 +70,7 @@ To solve this issue, put the Ip address of this machine in the `/etc/hosts` file
 
 ![1](/assets/images/htb/responder/unika-webpage.png)
 
-### <font color="#9bffc8">Local File Inclusion/LFI</font>
+## <font color="#9bffc8">Local File Inclusion/LFI</font>
 
 I'm started playing around with the website. Then, I found a button on the top navigation bar that you can change the language. When clicking any of the languages to change. The url became looks like this `http://unika.htb/index.php?page=french.html`
 
@@ -80,7 +80,7 @@ Every time I saw this kinda url with the parameter with it. I usually try to do 
 
 With this information. We can get access to this machine with `Log Poisoing`. However, the question asks something about `Responder` utility. 
 
-### <font color="#9bffc8">Responder.py</font>
+## <font color="#9bffc8">Responder.py</font>
 Every starting-point machine has a `walkthrough pdf` file to download. So, I download it and read the `Using Responder` section. That's no shame to read the walkthrough to learn. Well, I'm kinda lost reading those sections but I found this article [kali:forums - How to use Responder.py to Steal Credentials](https://forums.kali.org/showthread.php?36036-Penetration-Testing-How-to-use-Responder-py-to-Steal-Credentials)  and it kinda makes sense to my small brain :).  Here's the article that got highlighted from the pdf file [HackTricks - places to steal ntlm creds](https://book.hacktricks.xyz/windows/ntlm/places-to-steal-ntlm-creds#lfi)
 
 Enough with all of this, let's try to steal the hash. First, let's run the `responder` with `sudo` privilege and specify the `tun0` as the interface with tag `-I`. Now, add the "share" in the url bar at the `page parameter`. Make sure to use your `tun0 Ip address` and the "share" can be anything.
@@ -93,7 +93,7 @@ Enough with all of this, let's try to steal the hash. First, let's run the `resp
 
 The image above shows that the `responder` successfully grab the `NTLMv2` hash.
 
-### <font color="#9bffc8">Hashcat</font>
+## <font color="#9bffc8">Hashcat</font>
 
 Well, I got the hash already and put it in the file called `admin.hash` and the last thing to do is crack it. I love `hashcat` so much and that's the one I'm gonna use it. Let's run it with `mode 5600` for the `NTLMv2` hash and I'm gonna use `rockyou.txt` as my wordlist. 
 
@@ -103,16 +103,16 @@ Well, I got the hash already and put it in the file called `admin.hash` and the 
 
 YES! Finally! I've got the password.
 
-### <font color="#9bffc8">Evil-WinRM</font>
+## <font color="#9bffc8">Evil-WinRM</font>
 Based on the Nmap scan result. The `port 5985` is open, which is `Windows Remote Management (winrm)`. Let's try to connect to it with these credentials.
 
 ![1](/assets/images/htb/responder/evil-winrm-administrator.png)
 
 NICE!
 
-## <font color="#9bffc8">Second Method</font>
+# <font color="#9bffc8">Second Method</font>
 
-### <font color="#9bffc8">Log Poisoning</font>
+## <font color="#9bffc8">Log Poisoning</font>
 
 As you know, from the `First Method` section. This machine is vulnerable to `local file inclusion`. So, I'm gonna try to gain `remote code execution` through `log poisoning`. Here's the article talking about it [hackingarticles - apache log poisoning through lfi](https://www.hackingarticles.in/apache-log-poisoning-through-lfi/) that I found. The result from the Nmap scan shows us this is an `apache` server running on `Windows`. Let's verify that we can read the log file that locates in `C:\xampp\apache\logs\access.log` by default and to do this I'm gonna use the `BurpSuite`.
 
@@ -130,7 +130,7 @@ The log should now contain PHP code. The  LFI vulnerability should execute this 
 
 ![1](/assets/images/htb/responder/burpsuite-rce-whoami.png)
 
-### <font color="#9bffc8">Nishang: Invoke-PowerShellTcp.ps1</font>
+## <font color="#9bffc8">Nishang: Invoke-PowerShellTcp.ps1</font>
 
 Now, we have the RCE, and let's try to gain the reverse shell. I'm gonna use the [Nishang](https://github.com/samratashok/nishang) reverse shell which is `Invoke-PowerShellTcp.ps1` but first, I'm gonna make a new directory named `www` and copy the `powershell file` into that directory. Then, I'm gonna open that file and select one of the example lines available and change the `Ip address` and `port`. After that, put it in the last line in the file.
 

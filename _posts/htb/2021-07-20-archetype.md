@@ -20,7 +20,7 @@ tags:
 
 
 
-![legacy](/assets/images/htb/archetype/archetype.png)
+![hackthebox archetype title card](/assets/images/htb/archetype/archetype.png)
 
 _This is machine from starting point series_ <br>
 _You can download official pdf file to view the walkthrough_

@@ -21,7 +21,7 @@ tags:
 ---
 
 
-![1](/assets/images/htb/pathfinder/pathfinder.png)
+![hackthebox pathfinder title card](/assets/images/htb/pathfinder/pathfinder.png)
 
 
 _This is machine from starting point series_ <br>
