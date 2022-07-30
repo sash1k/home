@@ -9,212 +9,217 @@
 
 <url>
   <loc>https://shafiqaiman.com/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/all-post/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/categories/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/tags/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shafiqaiman.com/hackthebox-late-writeup/</loc>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-paper-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-optimum-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-jerry-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-netmon-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-responder-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-return-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-bashed-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-unified-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-beep-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://shafiqaiman.com/hackthebox-knife-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/page2/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/page3/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/page4/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://shafiqaiman.com/hackthebox-knife-writeup/</loc>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://shafiqaiman.com/hackthebox-devel-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-love-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-base-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-guard-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-markup-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-included-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-vaccine-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-sheild-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-pathfinder-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-oopsie-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-legacy-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-lame-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-blue-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/hackthebox-archetype-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/thm-vulnversity-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/thm-pickle-rick-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/thm-lazy-admin-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/thm-inclusion-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/thm-gaming-server-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/thm-dav-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/thm-brute-it-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/thm-brooklyn99-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/thm-bounty-hacker-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/thm-anonforce-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://shafiqaiman.com/thm-agent-sudo-writeup/</loc>
-  <lastmod>2022-06-28T23:24:33+00:00</lastmod>
+  <lastmod>2022-07-30T15:32:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
