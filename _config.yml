@@ -16,7 +16,7 @@ minimal_mistakes_skin    :  "miko" # "default", "air", "aqua", "contrast", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "shafiqaiman.com | writeups | HacktheBox | TryhackMe | CTF"
+title                    : "SH∆FIQ ∆IM∆N"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "shafiqaiman"
@@ -102,7 +102,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "shafiqaiman"
+  name             : "SH∆FIQ ∆IM∆N"
   avatar           : "/assets/images/new_profile.jpg"
   bio              : "Also known as Doct3rJohn, <br> CTF Player, RED teamer, <br> YEET"
   location         : "Malaysia"
