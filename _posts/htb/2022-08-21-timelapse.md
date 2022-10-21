@@ -12,6 +12,7 @@ categories:
   - windows
   - infosec
   - easy-htb
+  - writeup
 tags:
   - ldap
   - ldapsearch

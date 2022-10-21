@@ -12,6 +12,7 @@ categories:
   - linux
   - infosec
   - easy-htb
+  - writeup
 tags:
   - sqli
   - sql-union
