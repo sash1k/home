@@ -114,9 +114,6 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/_shafiqaiman_"
-    - label: "Notes"
-      icon: "fas fa-fw fa-link"
-      url: "https://note.shafiqaiman.com"
 
     # Not Use 
     #- label: "Email"
